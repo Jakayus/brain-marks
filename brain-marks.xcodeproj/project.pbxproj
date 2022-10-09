@@ -34,6 +34,11 @@
 		DBF50B54272467CF000D8B25 /* ContributorsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF50B51272467CF000D8B25 /* ContributorsListView.swift */; };
 		DBF50B55272467CF000D8B25 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF50B52272467CF000D8B25 /* SettingsView.swift */; };
 		DBF50B56272467CF000D8B25 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF50B53272467CF000D8B25 /* SettingsViewModel.swift */; };
+		DC323F6A28F25DE0006AAB54 /* brain_marks_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC323F6928F25DE0006AAB54 /* brain_marks_watchApp.swift */; };
+		DC323F6C28F25DE0006AAB54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC323F6B28F25DE0006AAB54 /* ContentView.swift */; };
+		DC323F6E28F25DE1006AAB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC323F6D28F25DE1006AAB54 /* Assets.xcassets */; };
+		DC323F7128F25DE1006AAB54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC323F7028F25DE1006AAB54 /* Preview Assets.xcassets */; };
+		DC323F7428F25DE1006AAB54 /* brain-marks-watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DC323F6728F25DE0006AAB54 /* brain-marks-watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FF21986F269FE57D00FFB406 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF21986E269FE57D00FFB406 /* AsyncImage.swift */; };
 		FF36B661262357F9007A6D7F /* AWSCategory+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36B660262357F9007A6D7F /* AWSCategory+Extension.swift */; };
 		FF36B66C26235FE6007A6D7F /* TweetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36B66B26235FE6007A6D7F /* TweetListViewModel.swift */; };
@@ -61,6 +66,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DC323F7228F25DE1006AAB54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEBBB2E26223F75000F475F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC323F6628F25DE0006AAB54;
+			remoteInfo = "brain-marks-watch Watch App";
+		};
 		FFEBBB4826223F7F000F475F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FFEBBB2E26223F75000F475F /* Project object */;
@@ -76,6 +88,20 @@
 			remoteInfo = "brain-marks";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC323F7828F25DE1006AAB54 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DC323F7428F25DE1006AAB54 /* brain-marks-watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0AA54EDF3B34443CA9D530E5 /* AWSTweet.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AWSTweet.swift; path = amplify/generated/models/AWSTweet.swift; sourceTree = "<group>"; };
@@ -107,6 +133,11 @@
 		DBF50B51272467CF000D8B25 /* ContributorsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContributorsListView.swift; sourceTree = "<group>"; };
 		DBF50B52272467CF000D8B25 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DBF50B53272467CF000D8B25 /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		DC323F6728F25DE0006AAB54 /* brain-marks-watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "brain-marks-watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC323F6928F25DE0006AAB54 /* brain_marks_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brain_marks_watchApp.swift; sourceTree = "<group>"; };
+		DC323F6B28F25DE0006AAB54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC323F6D28F25DE1006AAB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC323F7028F25DE1006AAB54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ECA1CF04DB754255822691F2 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		FF21986E269FE57D00FFB406 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		FF36B660262357F9007A6D7F /* AWSCategory+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AWSCategory+Extension.swift"; sourceTree = "<group>"; };
@@ -138,6 +169,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DC323F6428F25DE0006AAB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FFEBBB3326223F75000F475F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,6 +288,25 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		DC323F6828F25DE0006AAB54 /* brain-marks-watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DC323F6928F25DE0006AAB54 /* brain_marks_watchApp.swift */,
+				DC323F6B28F25DE0006AAB54 /* ContentView.swift */,
+				DC323F6D28F25DE1006AAB54 /* Assets.xcassets */,
+				DC323F6F28F25DE1006AAB54 /* Preview Content */,
+			);
+			path = "brain-marks-watch Watch App";
+			sourceTree = "<group>";
+		};
+		DC323F6F28F25DE1006AAB54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC323F7028F25DE1006AAB54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		FF3942FF262E847000A3623B /* Add */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +389,7 @@
 				FFEBBB3826223F75000F475F /* brain-marks */,
 				FFEBBB4A26223F7F000F475F /* brain-marksTests */,
 				FFEBBB5526223F7F000F475F /* brain-marksUITests */,
+				DC323F6828F25DE0006AAB54 /* brain-marks-watch Watch App */,
 				FFEBBB3726223F75000F475F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -342,6 +400,7 @@
 				FFEBBB3626223F75000F475F /* brain-marks.app */,
 				FFEBBB4726223F7F000F475F /* brain-marksTests.xctest */,
 				FFEBBB5226223F7F000F475F /* brain-marksUITests.xctest */,
+				DC323F6728F25DE0006AAB54 /* brain-marks-watch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -400,6 +459,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DC323F6628F25DE0006AAB54 /* brain-marks-watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC323F7528F25DE1006AAB54 /* Build configuration list for PBXNativeTarget "brain-marks-watch Watch App" */;
+			buildPhases = (
+				DC323F6328F25DE0006AAB54 /* Sources */,
+				DC323F6428F25DE0006AAB54 /* Frameworks */,
+				DC323F6528F25DE0006AAB54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "brain-marks-watch Watch App";
+			productName = "brain-marks-watch Watch App";
+			productReference = DC323F6728F25DE0006AAB54 /* brain-marks-watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FFEBBB3526223F75000F475F /* brain-marks */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFEBBB5B26223F7F000F475F /* Build configuration list for PBXNativeTarget "brain-marks" */;
@@ -408,10 +484,12 @@
 				FFEBBB3326223F75000F475F /* Frameworks */,
 				FFEBBB3426223F75000F475F /* Resources */,
 				FFEBBB802622755F000F475F /* ShellScript */,
+				DC323F7828F25DE1006AAB54 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DC323F7328F25DE1006AAB54 /* PBXTargetDependency */,
 			);
 			name = "brain-marks";
 			packageProductDependencies = (
@@ -465,9 +543,12 @@
 		FFEBBB2E26223F75000F475F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					DC323F6628F25DE0006AAB54 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
 					FFEBBB3526223F75000F475F = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -502,11 +583,21 @@
 				FFEBBB3526223F75000F475F /* brain-marks */,
 				FFEBBB4626223F7F000F475F /* brain-marksTests */,
 				FFEBBB5126223F7F000F475F /* brain-marksUITests */,
+				DC323F6628F25DE0006AAB54 /* brain-marks-watch Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DC323F6528F25DE0006AAB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC323F7128F25DE1006AAB54 /* Preview Assets.xcassets in Resources */,
+				DC323F6E28F25DE1006AAB54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FFEBBB3426223F75000F475F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,6 +649,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DC323F6328F25DE0006AAB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC323F6C28F25DE0006AAB54 /* ContentView.swift in Sources */,
+				DC323F6A28F25DE0006AAB54 /* brain_marks_watchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FFEBBB3226223F75000F475F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -624,6 +724,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DC323F7328F25DE1006AAB54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC323F6628F25DE0006AAB54 /* brain-marks-watch Watch App */;
+			targetProxy = DC323F7228F25DE1006AAB54 /* PBXContainerItemProxy */;
+		};
 		FFEBBB4926223F7F000F475F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FFEBBB3526223F75000F475F /* brain-marks */;
@@ -657,6 +762,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DC323F7628F25DE1006AAB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brain-marks-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Y535846H6P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "brain-marks-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mikaelacaron.brainmarks;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikaelacaron.brainmarks.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		DC323F7728F25DE1006AAB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brain-marks-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Y535846H6P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "brain-marks-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mikaelacaron.brainmarks;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikaelacaron.brainmarks.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 		FFEBBB5926223F7F000F475F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -780,6 +947,7 @@
 		FFEBBB5C26223F7F000F475F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -803,6 +971,7 @@
 		FFEBBB5D26223F7F000F475F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -911,6 +1080,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DC323F7528F25DE1006AAB54 /* Build configuration list for PBXNativeTarget "brain-marks-watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC323F7628F25DE1006AAB54 /* Debug */,
+				DC323F7728F25DE1006AAB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FFEBBB3126223F75000F475F /* Build configuration list for PBXProject "brain-marks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
